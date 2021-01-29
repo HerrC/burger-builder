@@ -12,3 +12,4 @@ Config config\webpack.config.js: Hinzufügen von localIdentName.
         }
     },
 
+Auxiliary is the same as React.Fragement: Kann beides genutzt werden.
