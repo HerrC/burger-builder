@@ -1,7 +1,11 @@
+import Layout from "./components/Layout/Layout";
+
 function App() {
   return (
     <div>
-      <p>Hallo</p>
+      <Layout >
+        <p>Test</p>
+      </Layout>
     </div>
   );
 }
