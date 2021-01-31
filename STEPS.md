@@ -21,3 +21,7 @@ CSS Classes eingebaut (Layout.css): Einfach ein .Content mit css content
 und dann importieren unter 
     import classes from '..path..';
     <main className="classes.Content">
+
+
+
+Shift + F12: Usage of class method or anything else
