@@ -1,0 +1,32 @@
+.SideDrawer {
+    position: fixed; /* always be on the page, even when we scroll */
+    width: 280px; 
+    max-width: 70%; /*even on super narrow devices does not go over the edges   */
+    height: 100%; /* full screen*/
+    left: 0;
+    top: 0;
+    z-index: 200; /* higher than backdrop */
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box; /* to adjust the site of the padding*/
+    transition: transform 0.3s ease-out; /* for opening and closing */
+}
+/* add a media query*/
+@media (min-width: 500px) {
+    /* if the device is more than 500px the side drawer is not visible*/
+    .SideDrawer {
+        display: none; /* never see this on bigger devices*/
+    }
+}
+
+.Open {
+    transform: translateX(0); /* playing an animation: basically shift the side drawer what i said above */
+}
+
+.Close {
+    transform: translateX(-100%); /* out of the left */
+}
+
+.Logo {
+    height: 11%;
+}
