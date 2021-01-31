@@ -20,3 +20,11 @@
 .Logo {
     height: 80%;
 }
+
+/* checks if we are on a mobile device */
+@media (max-width: 499px) {
+    /* only overwrite for mobile devices */
+    .DesktopOnly {
+        display:none;
+    }
+}
