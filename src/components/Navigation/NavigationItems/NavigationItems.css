@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    flex-flow: column;
+    display: flex; /* next to each other */
+    flex-flow: column; /* untereinander */
     align-items: center;
     height: 100%;
 }
 
+/* for desktop */
 @media (min-width: 500px ){
     .NavigationItems {
         flex-flow: row;
